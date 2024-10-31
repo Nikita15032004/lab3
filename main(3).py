@@ -124,12 +124,12 @@ print(f"Average points in group: {average:.2f}")
 #Zad. 8
 text = "Python jest super"
 
-print("Zerowy:", text[0])
-print("Ostatni:", text[-1])
-print("Co drugi od zerowego:", text[::2])
-print("Co trzeci od pierwszego:", text[1::3])
+print("Zerowym:", text[0])
+print("Ostatnim:", text[-1])
+print("Co drugi, zaczynając od zerowego:", text[::2])
+print("Co trzeci zaczynając od pierwszego:", text[1::3])
 print("Od dziesiątego do ostatniego:", text[10:])
-print("Od końca do początku:", text[::-1])
+print("Wyświetl od końca do początku:", text[::-1])
 
 
 
