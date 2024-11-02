@@ -3,12 +3,12 @@
 #Zad. 1
 def kontrol_paliwa():
     paliwo = 100
-    paliwo_zuzycie = 10
+    paliwo_zużyte_na_s = 10
     czas = 0
 
     while paliwo > 0:
         print(f"Pozostalo paliwa: {paliwo} litrow")
-        paliwo -= paliwo_zuzycie
+        paliwo -= paliwo_zużyte_na_s
         czas += 1
 
 
